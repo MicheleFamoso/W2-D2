@@ -106,17 +106,16 @@ if (risultato > 0) {
   console.log("Numero dispari", risultato)
 } else console.log("Numero Pari", risultato)
 
-/* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+// ESERCIZIO 10
+//Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+let val = 10
+if (val < 10) {
+  console.log("Meno di 10")
+} else if (val < 5) {
+  console.log("Meno di 5")
+} else {
+  console.log("Uguale a 10 o maggiore")
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -131,18 +130,19 @@ const me = {
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city = "Toronto"
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+delete me.lastName
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop()
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
