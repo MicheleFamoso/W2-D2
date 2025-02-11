@@ -72,7 +72,7 @@ let spedizione = 10
 let sconto = totalShoppingCart * 0.2
 let totalSconto = totalShoppingCart - sconto
 
-if (totalShoppingCart >= 50) {
+if (totalSconto >= 50) {
   console.log("totale con spedizione gratutita", totalSconto)
 } else console.log("totale piu spedizione", totalSconto + spedizione)
 
@@ -108,17 +108,16 @@ if (risultato > 0) {
 
 // ESERCIZIO 10
 //Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-let val = 10
-if (val < 10) {
-  console.log("Meno di 10")
-} else if (val < 5) {
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+let val = 7
+if (val < 5) {
   console.log("Meno di 5")
+} else if (val < 10) {
+  console.log("Meno di 10")
 } else {
   console.log("Uguale a 10 o maggiore")
 }
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -149,9 +148,13 @@ me.skills.pop()
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let arrey = []
+
+arrey.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+arrey[9] = 100
